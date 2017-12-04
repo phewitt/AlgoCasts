@@ -11,8 +11,6 @@ function reverse(str) {
   return str.split('').reverse().join('');
 }
 
-reverse('asdf');
-
 function reverse2(str) {
   let reversed = '';
 
