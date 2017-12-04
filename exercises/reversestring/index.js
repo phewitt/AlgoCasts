@@ -11,20 +11,20 @@ function reverse(str) {
   return str.split('').reverse().join('');
 }
 
-function reverse2(str) {
-  let reversed = '';
+// function reverse2(str) {
+//   let reversed = '';
 
-  for (let c of str) {
-    console.log("this is c: " + c);
-    console.log("this is reversed: " + reversed);
-    reversed = c + reversed;
-  }
+//   for (let c of str) {
+//     consol e.log("this is c: " + c);
+//     console.log("this is reversed: " + reversed);
+//     reversed = c + reversed;
+//   }
 
-  return reversed
-}
+//   return reversed
+// }
 
-function reversed3(str) {
-  str.split('').reduce((rev, char) => char + rev, '');
-}
+// function reversed3(str) {
+//   str.split('').reduce((rev, char) => char + rev, '');
+// }
 
 module.exports = reverse;
