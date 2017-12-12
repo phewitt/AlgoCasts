@@ -18,3 +18,7 @@ function palindrome(str) {
 module.exports = palindrome;
 
 // ALTERNATE SOLUTIONS
+
+// function palindrome(str) {
+  
+// }
