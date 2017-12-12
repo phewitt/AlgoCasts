@@ -11,6 +11,9 @@ function reverse(str) {
   return str.split('').reverse().join('');
 }
 
+module.exports = reverse;
+
+// ALTERNATE SOLUTIONS
 // function reverse2(str) {
 //   let reversed = '';
 
@@ -27,4 +30,4 @@ function reverse(str) {
 //   str.split('').reduce((rev, char) => char + rev, '');
 // }
 
-module.exports = reverse;
+
